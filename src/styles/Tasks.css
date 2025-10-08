@@ -1,0 +1,11 @@
+.tasks-container { max-width: 900px; margin: 2rem auto; }
+.task-form input, .task-form select, .task-form button {
+  display: block; width: 100%; margin: 0.5rem 0; padding: 0.75rem; border-radius: .3rem; border: 1px solid #aaa;
+}
+.tasks-list { display: flex; gap: 2rem; flex-wrap: wrap; }
+.task-card {
+  background: #d3efef; border-radius: 1rem; box-shadow: 0 2px 8px #3eabbc19;
+  padding: 1.3rem; width: 220px;
+}
+.task-card.completed { border: 2px solid #38d39f; }
+.task-card.pending { border: 2px solid #ffa502; }

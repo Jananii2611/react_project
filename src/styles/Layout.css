@@ -1,0 +1,21 @@
+.header {
+  background: #228b22; color: #fff; display: flex; align-items: center; justify-content: space-between;
+  padding: 1rem 2rem; box-shadow: 0 2px 8px rgba(0,0,0,.10);
+}
+.logo { font-size: 1.5rem; }
+.header nav a, .sidebar a {
+  color: #fff; margin-right: 1.2rem; text-decoration: none;
+  font-weight: 500; transition: color .2s;
+}
+.header nav a:hover, .sidebar a:hover {
+  color: #ffd700;
+}
+.sidebar {
+  background: #2c3e50; color: #fff; width: 180px; display: flex; flex-direction: column;
+  padding: 2rem 0; border-top-right-radius: 2rem;
+  min-height: 80vh;
+}
+.sidebar a {
+  margin: 1rem 0 1rem 2rem;
+  color: #b2bec3;
+}

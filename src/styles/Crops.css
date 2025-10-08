@@ -1,0 +1,31 @@
+.crops-container { max-width: 900px; margin: 2rem auto; }
+.add-btn {
+  background: #009900; color: #fff; border: none; padding: .7rem 1.2rem; margin-bottom: 1rem;
+  border-radius: 2rem; font-weight: bold; cursor: pointer; transition: background .2s;
+}
+.add-btn:hover { background: #76c893; }
+.crop-form input, .crop-form button {
+  display: block; width: 100%; margin: 0.5rem 0; padding: 0.75rem; border-radius: .3rem;
+  border: 1px solid #aaa;
+}
+.crops-list {
+  display: flex; gap: 2rem; flex-wrap: wrap;
+}
+.crop-card {
+  background: #f9f9f9; border-radius: 1.5rem; padding: 1.5rem; margin: 1rem 0;
+  box-shadow: 0 4px 18px #20c99716; width: 230px; text-align:left;
+}
+/* App.css additions */
+.dashboard-cards {
+  display: flex; gap: 2rem; justify-content: center; margin-bottom: 2rem;
+}
+.dashboard-card {
+  background: #e3fcec;
+  padding: 1.5rem 3rem;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  min-width: 180px;
+  box-shadow: 0 2px 8px #39fc8ed2;
+  text-align: center;
+}

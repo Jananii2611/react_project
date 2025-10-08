@@ -1,0 +1,46 @@
+.header { background: #fff; box-shadow:0 4px 10px #dee; height:60px; }
+.btn { font-weight: 500; }
+.ac-header {
+  min-height: 70px;
+  background: linear-gradient(90deg, #60baa3 60%, #154734 100%);
+  border-radius: 0 0 1.7em 1.7em;
+  box-shadow: 0px 1px 8px #1113;
+  color: #fff;
+  position: sticky;
+  z-index: 100;
+}
+.header-action-btn {
+  background: #26de81;
+  color: #fff;
+  border: none;
+  border-radius: 1.2em;
+  padding: 0.6em 1.5em;
+  font-weight: bold;
+  font-size: 1em;
+  margin: 0.2em 0.7em;
+  box-shadow: 0 2px 12px #1c572388;
+  transition: box-shadow .22s, background .16s;
+}
+.header-action-btn:hover {
+  background: #154734;
+  box-shadow: 0 6px 22px #30c98f33; color:#f2f2f2;
+}
+.topbar-nobg {
+  background: none;
+  font-family: 'Segoe UI',Arial,sans-serif;
+  min-height: 68px;
+}
+.add-crop-btn {
+  background: linear-gradient(90deg,#63e660 60%,#21bb60 100%);
+  border: none;
+  color: #fff;
+  padding: 0.7em 2em;
+  font-weight: bold;
+  border-radius: 2em;
+  font-size: 1em;
+  box-shadow: 0 2px 16px #21bb6033;
+  transition: background .16s, opacity .18s;
+}
+.add-crop-btn:hover { background: #21bb60; opacity:0.92;}
+.profile-btn { cursor: pointer;}
+.profile-avatar { color: #21bb60; }
